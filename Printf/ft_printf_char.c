@@ -6,13 +6,13 @@
 /*   By: snakajim <snakajim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/14 13:52:43 by snakajim          #+#    #+#             */
-/*   Updated: 2024/07/14 18:44:38 by snakajim         ###   ########.fr       */
+/*   Updated: 2024/07/15 11:19:59 by snakajim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_printf_char(int c)
+int	ft_printf_char(char c)
 {
 	ft_putchar_fd(c, 1);
 	return (1);

@@ -6,11 +6,12 @@
 /*   By: snakajim <snakajim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/14 16:39:27 by snakajim          #+#    #+#             */
-/*   Updated: 2024/07/14 18:45:15 by snakajim         ###   ########.fr       */
+/*   Updated: 2024/07/15 11:55:55 by snakajim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+
 int	ft_printf_hex(unsigned int hex, int (*up_or_low)(int))
 {
 	char	*hex_digit;
